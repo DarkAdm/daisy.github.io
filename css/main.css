@@ -1,0 +1,1157 @@
+a {
+  color: white;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:active {
+  text-decoration: none; }
+
+section.head {
+  background-image: url(../img/header.jpg);
+  background-repeat: repeat-x;
+  height: 775px;
+  background-position: top center;
+  padding: 25px 0 0; }
+
+.logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  height: 68px;
+  width: 59px;
+  float: left; }
+
+.log_t,
+.log_t:hover {
+  font-family: "GothaProBol";
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px; }
+
+.log_block {
+  margin: 16px 0 0; }
+
+.menu ul li a {
+  font-size: 16px;
+  font-family: "SourceSansPro-Regular";
+  text-transform: uppercase;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.menu ul li a:hover,
+.menu ul li a:active {
+  color: #fc635e;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.menu ul li {
+  display: inline-block;
+  margin: 10px 20px; }
+
+.head_text h1 {
+  font-size: 60px;
+  color: white;
+  font-family: "SourceSansPro-Regular";
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 0; }
+
+.head_text span {
+  color: #fc635e; }
+
+.head_text p {
+  font-family: "GothaProLig";
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+.head_line {
+  border: 3px solid grey;
+  margin-top: 227px; }
+
+.button {
+  margin: 60px auto 0;
+  display: block;
+  color: #fc635e;
+  border: 2px solid #fc635e;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding: 10px 25px;
+  width: 220px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "GothaProLig";
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.button:hover,
+.button:active {
+  color: #d73e39;
+  border: 2px solid #d73e39;
+  -webkit-box-shadow: 10px 10px 10px -5px black;
+          box-shadow: 10px 10px 10px -5px black;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.h1_general {
+  font-size: 28px;
+  color: #868686;
+  font-family: "GothaProBol";
+  text-transform: uppercase;
+  text-align: center; }
+
+.h1_general span {
+  color: #fc635e; }
+
+.p_general {
+  font-family: "GothaProLig";
+  font-size: 20px;
+  color: #adadad;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.figure {
+  width: 100px;
+  height: 55px;
+  background: #fe8682;
+  position: relative;
+  display: block;
+  margin: 0 auto; }
+
+.figure:before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #fe8682; }
+
+.figure:after {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #fe8682; }
+
+.bord_figure {
+  width: 90px;
+  height: 47px;
+  background: #fc635e;
+  position: relative;
+  margin-left: 5px;
+  top: 4px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer; }
+
+.bord_figure:before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 46px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 23px solid #fc635e;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer; }
+
+.bord_figure:after {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 46px solid transparent;
+  border-right: 45px solid transparent;
+  border-top: 22px solid #fc635e;
+  z-index: 10;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  cursor: pointer; }
+
+.fa-rocket,
+.fa-microphone,
+.fa-bar-chart,
+.fa-pencil-square-o {
+  color: white; }
+
+.figure_position {
+  left: 23px;
+  position: relative;
+  top: 1px; }
+
+.figure_position2 {
+  left: 29px;
+  position: relative;
+  top: 1px; }
+
+.figure_position4 {
+  left: 32px;
+  position: relative;
+  top: 1px; }
+
+.bord_figure:hover {
+  background-color: #fff;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.bord_figure:hover.bord_figure:before {
+  border-bottom: 23px solid #fff;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.bord_figure:hover.bord_figure:after {
+  border-top: 23px solid #fff;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.bord_figure:hover .fa-rocket,
+.bord_figure:hover .fa-microphone,
+.bord_figure:hover .fa-bar-chart,
+.bord_figure:hover .fa-pencil-square-o {
+  color: #fc635e;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.figure_icon1,
+.figure_icon2,
+.figure_icon3,
+.figure_icon4 {
+  position: absolute;
+  z-index: 100;
+  top: -25px;
+  left: -17px; }
+
+.figure_icon1 {
+  background-image: url(../img/figure_icon1.png);
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px; }
+
+.figure_icon2 {
+  background-image: url(../img/figure_icon2.png);
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px; }
+
+.figure_icon3 {
+  background-image: url(../img/figure_icon3.png);
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px; }
+
+.figure_icon4 {
+  background-image: url(../img/figure_icon4.png);
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px; }
+
+.figure_icon5 {
+  background-image: url(../img/figure_icon5.png);
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 38px;
+  position: absolute;
+  z-index: 100;
+  top: 205px;
+  left: 113px; }
+
+.block_iteam h2 {
+  font-family: "GothaProMed";
+  font-size: 20px;
+  color: #868686;
+  text-align: center;
+  padding-top: 15px; }
+
+section.block_2 {
+  padding: 40px 20px 0px; }
+
+.block_iteam p {
+  font-family: "GothaProLig";
+  font-size: 15px;
+  color: #adadad;
+  text-align: center; }
+
+.min_line {
+  width: 55px;
+  border: 1px solid #868686;
+  margin: 0 auto; }
+
+.block_content {
+  margin-top: 80px; }
+
+section.block_1 {
+  padding: 30px 30px 50px; }
+
+section.city {
+  background-image: url(../img/city.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  height: 576px; }
+
+section.city h1 {
+  font-family: "GothaProBol";
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 190px; }
+
+section.city span {
+  color: #fc635e; }
+
+.line_horizontal {
+  border: 2px solid #adadad;
+  width: 200px;
+  display: block;
+  margin: 0 auto 20px; }
+
+section.wedo {
+  background-color: #f2f2f2;
+  padding: 20px 20px 50px;
+  margin-top: -200px; }
+
+.devaice {
+  background-image: url(../img/devi.png);
+  background-repeat: no-repeat;
+  height: 320px;
+  margin-top: 40px; }
+
+.lpI {
+  height: 40px;
+  width: 10px;
+  background-color: #fc635e;
+  float: left; }
+
+.wedo_block {
+  margin-top: 94px; }
+
+.wedo_block h2 {
+  font-size: 28px;
+  color: #868686;
+  font-family: "GothaProMed";
+  margin-left: 40px;
+  text-transform: uppercase; }
+
+.wedo_block p {
+  font-size: 15px;
+  color: #9e9898;
+  font-family: "GothaProLig";
+  max-width: 370px;
+  margin-bottom: 50px; }
+
+.button2 {
+  font-family: "GothaProLig";
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fc635e;
+  padding: 10px 25px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
+
+.button2:hover,
+.button2:active {
+  color: #fff;
+  background-color: #e0534e;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+section.adverr {
+  padding: 20px 20px 50px; }
+
+.adv_dev {
+  background-image: url(../img/mac.png);
+  background-repeat: no-repeat;
+  height: 293px; }
+
+section.adverr h2 {
+  font-size: 28px;
+  color: #868686;
+  font-family: "GothaProMed";
+  text-transform: uppercase;
+  margin-left: 55%; }
+
+section.adverr .lpI {
+  float: right;
+  margin-top: 20px; }
+
+section.adverr p {
+  font-size: 15px;
+  color: #9e9898;
+  font-family: "GothaProLig";
+  max-width: 370px;
+  margin-bottom: 50px;
+  float: right;
+  text-align: right; }
+
+section.adverr .button2 {
+  float: right;
+  margin: 200px -370px 0; }
+
+section.book {
+  background-color: #f2f2f2;
+  padding: 0 20px 50px; }
+
+.book_img {
+  background-image: url(../img/book.png);
+  background-repeat: no-repeat;
+  height: 290px;
+  margin-top: 90px; }
+
+.slider_menu ul li {
+  font-family: "GothaProLig";
+  color: #fc635e;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.slider_menu ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px; }
+
+.slider_menu ul {
+  text-align: center; }
+
+.slider_menu {
+  border-top: 2px solid #868686;
+  border-bottom: 2px solid #868686;
+  margin-top: 40px; }
+
+.img_content_all {
+  position: relative;
+  cursor: pointer;
+  margin: 10px 0px; }
+
+.galary_menu li {
+  cursor: pointer; }
+
+.mask {
+  position: absolute;
+  height: 194px;
+  width: 350px;
+  background: transparent;
+  top: 0px;
+  left: 0px;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.mask:hover {
+  position: absolute;
+  background: rgba(255, 0, 0, 0.3);
+  top: 0px;
+  left: 0px;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.mask:hover .plus {
+  background-image: url(../img/portfolio/plus.png);
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 46px;
+  position: absolute;
+  top: 78px;
+  left: 45%;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+.galary_content {
+  margin: 15px 30px;
+  position: relative; }
+
+.btn_pos2 {
+  width: 260px;
+  display: block;
+  margin: 50px auto; }
+
+section.our_team {
+  background-color: #f2f2f2;
+  padding: 40px; }
+
+.img_man1 {
+  background-image: url(../img/team/team1.png);
+  background-repeat: no-repeat;
+  height: 170px;
+  background-position: center center; }
+
+.img_man2 {
+  background-image: url(../img/team/team2.png);
+  background-repeat: no-repeat;
+  height: 170px;
+  background-position: center center; }
+
+.img_man3 {
+  background-image: url(../img/team/team3.png);
+  background-repeat: no-repeat;
+  height: 170px;
+  background-position: center center; }
+
+.team_man h1 {
+  font-family: "GothaProMed";
+  font-size: 28px;
+  color: #fc635e;
+  text-align: center;
+  margin-bottom: 0; }
+
+.team_man span {
+  font-family: "GothaProMed";
+  font-size: 28px;
+  color: #565656;
+  text-align: center;
+  margin-bottom: 0; }
+
+.team_man p {
+  font-family: "GothaProLig";
+  font-size: 20px;
+  color: #565656;
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+.team_man {
+  margin-top: 40px; }
+
+.social_group {
+  padding: 0 90px; }
+
+.twit {
+  background-image: url(../img/team/social/twit.png);
+  background-repeat: no-repeat;
+  height: 37px;
+  width: 37px;
+  float: left;
+  margin: 9px;
+  cursor: pointer; }
+
+.face {
+  background-image: url(../img/team/social/face.png);
+  background-repeat: no-repeat;
+  height: 37px;
+  width: 37px;
+  float: left;
+  margin: 9px;
+  cursor: pointer; }
+
+.ini {
+  background-image: url(../img/team/social/ini.png);
+  background-repeat: no-repeat;
+  height: 37px;
+  width: 37px;
+  float: left;
+  margin: 9px;
+  cursor: pointer; }
+
+.twit:hover {
+  background-image: url(../img/team/social/twit_h.png);
+  background-repeat: no-repeat;
+  height: 37px; }
+
+.face:hover {
+  background-image: url(../img/team/social/face_h.png);
+  background-repeat: no-repeat;
+  height: 37px; }
+
+.ini:hover {
+  background-image: url(../img/team/social/ini_h.png);
+  background-repeat: no-repeat;
+  height: 37px; }
+
+.team_img_inf {
+  background-image: url(../img/tm_inf.png);
+  background-repeat: no-repeat;
+  height: 86px;
+  background-position: top center; }
+
+section.team_info {
+  padding: 40px 20px 150px; }
+
+section.map {
+  background-image: url(../img/map.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 338px; }
+
+section.footer {
+  background-image: url(../img/footer.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  height: 253px; }
+
+.all_block {
+  margin-left: 150px; }
+
+.line_bord_all_block {
+  left: 41px;
+  position: relative;
+  top: 425px; }
+
+section.footer .logo {
+  float: none;
+  position: relative;
+  display: block;
+  margin: 8% auto; }
+
+section.foote.log_t {
+  position: relative; }
+
+.all_block {
+  position: relative; }
+
+.all_block svg {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.figure_block_1 {
+  width: 180px;
+  height: 100px;
+  background: #adadad;
+  position: relative;
+  left: 51px;
+  top: 252px;
+  z-index: 100; }
+
+.figure_block_3 {
+  left: 300px;
+  width: 180px;
+  height: 100px;
+  background: #adadad;
+  position: relative;
+  top: -361px;
+  z-index: 100; }
+
+.figure_block_4 {
+  left: 390px;
+  width: 180px;
+  height: 100px;
+  background: #adadad;
+  position: relative;
+  top: -612px;
+  z-index: 100; }
+
+.figure_block_5 {
+  background: #adadad none repeat scroll 0 0;
+  height: 150px;
+  left: 569px;
+  position: relative;
+  top: -613px;
+  width: 262px;
+  z-index: 100; }
+
+.figure_block_1:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 50px solid #adadad; }
+
+.figure_block_3:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 50px solid #adadad; }
+
+.figure_block_4:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 50px solid #adadad; }
+
+.figure_block_1:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 50px solid #adadad; }
+
+.figure_block_5:after {
+  content: "";
+  position: absolute;
+  bottom: -74px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  border-top: 74px solid #adadad; }
+
+.figure_block_3:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 50px solid #adadad; }
+
+.figure_block_4:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 50px solid #adadad; }
+
+.figure_block_11 {
+  width: 180px;
+  height: 100px;
+  background: #fff;
+  position: relative;
+  left: 1px;
+  top: 1px;
+  z-index: 90; }
+
+.figure_block_11:after {
+  content: "";
+  position: absolute;
+  bottom: -49px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 50px solid #fff; }
+
+.figure_block_1:before {
+  content: "";
+  position: absolute;
+  top: -49px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 91px solid transparent;
+  border-right: 91px solid transparent;
+  border-bottom: 50px solid #fff; }
+
+.figure_block_13 {
+  width: 179px;
+  height: 97px;
+  background: #fff;
+  position: relative;
+  left: -1px;
+  top: 1px;
+  z-index: 90; }
+
+.figure_block_13:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 2px;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 89px solid transparent;
+  border-top: 50px solid #fff; }
+
+.figure_block_13:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  border-left: 91px solid transparent;
+  border-right: 91px solid transparent;
+  border-bottom: 50px solid #fff; }
+
+.figure_block_14 {
+  width: 179px;
+  height: 97px;
+  background: #fff;
+  position: relative;
+  left: 1px;
+  top: 1px;
+  z-index: 90; }
+
+.figure_block_14:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: -1px;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 89px solid transparent;
+  border-top: 51px solid #fff; }
+
+.figure_block_14:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -1px;
+  width: 0;
+  height: 0;
+  border-left: 91px solid transparent;
+  border-right: 91px solid transparent;
+  border-bottom: 50px solid #fff; }
+
+.figure_block_15 {
+  background: #fff none repeat scroll 0 0;
+  height: 147px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 262px;
+  z-index: 90; }
+
+.figure_block_15:after {
+  content: "";
+  border-left: 132px solid transparent;
+  border-right: 132px solid transparent;
+  border-top: 76px solid #fff;
+  bottom: -75px;
+  content: "";
+  height: 0;
+  left: -2px;
+  position: absolute;
+  width: 0; }
+
+.figure_block_5:before {
+  content: "";
+  border-bottom: 74px solid #fff;
+  border-left: 130px solid transparent;
+  border-right: 132px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -72px;
+  width: 0; }
+
+.figure_block_2 {
+  background-image: url(../img/figure_block_2.png);
+  background-repeat: no-repeat;
+  height: 302px;
+  margin-left: 100px;
+  margin-top: 250px; }
+
+.figure_block_11 h2,
+.figure_block_13 h2,
+.figure_block_14 h2,
+.figure_block_15 h2 {
+  font-family: "GothaProMed";
+  font-size: 24px;
+  color: #9f9f9f;
+  text-align: center;
+  margin: 0; }
+
+.figure_block_11 span,
+.figure_block_13 span,
+.figure_block_14 span,
+.figure_block_15 span {
+  color: #fc635e; }
+
+.figure_block_11 p,
+.figure_block_13 p,
+.figure_block_14 p,
+.figure_block_15 p {
+  font-size: 13px;
+  color: #9f9f9f;
+  font-family: "GothaProLig";
+  text-align: center;
+  margin: 0;
+  padding: 10px; }
+
+.p_slider {
+  color: #767676;
+  font-size: 15px;
+  font-family: "GothaProLig";
+  float: left;
+  padding: 25px;
+  margin-left: 60px; }
+
+.h1_slider {
+  color: #fc635e;
+  font-family: "GothaProMed";
+  font-size: 28px;
+  margin-bottom: 0;
+  text-align: center; }
+
+.span_slider {
+  color: #565656;
+  font-family: "GothaProMed";
+  font-size: 28px;
+  margin-bottom: 0;
+  text-align: center; }
+
+.p_right_slider {
+  color: #565656;
+  font-family: "GothaProLig";
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.slider_text_right {
+  margin-left: -200px;
+  margin-top: 45px; }
+
+.slide_img3 {
+  background-image: url(../img/team/team3.png);
+  background-repeat: no-repeat;
+  height: 170px;
+  background-position: center; }
+
+.slide_img2 {
+  background-image: url(../img/team/team2.png);
+  background-repeat: no-repeat;
+  height: 170px;
+  background-position: center; }
+
+.slide_img1 {
+  background-image: url(../img/team/team1.png);
+  background-repeat: no-repeat;
+  height: 170px;
+  background-position: center; }
+
+.logo_map {
+  background-image: url(../img/logo_map.png);
+  background-repeat: no-repeat;
+  height: 242px;
+  width: 242px;
+  position: absolute;
+  left: 42%;
+  top: -129px; }
+
+svg {
+  left: 216px;
+  position: absolute;
+  top: 222px;
+  z-index: 100; }
+
+.butt_scrol {
+  background-color: #fc635e;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  color: #fff;
+  left: 90%;
+  padding: 15px 20px;
+  position: absolute;
+  top: 44%;
+  cursor: pointer; }
+
+.wrap_img_portfolio {
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  top: 172px;
+  left: 0;
+  display: none;
+  text-align: center;
+  z-index: 2000; }
+
+.wrap_bg_portfolio {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: 2000;
+  height: 80%;
+  width: 100%;
+  min-height: 600px; }
+
+.me_portfolio_img {
+  position: relative;
+  margin: 0 auto;
+  z-index: 2000;
+  max-height: 94%;
+  max-width: 94%;
+  margin: 7% 0 0 0;
+  height: 60%;
+  width: 60%;
+  min-height: 450px; }
+
+#tab3_dis,
+#tab2_dis {
+  display: none; }
+
+.svg_polyline {
+  stroke-dasharray: 2800;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash 6s;
+          animation: dash 6s; }
+
+@-webkit-keyframes dash {
+  from {
+    stroke-dashoffset: 2800; }
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 2800; }
+  to {
+    stroke-dashoffset: 0; } }
+
+.bx-pager-item {
+  margin-left: -40px; }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  .head_text h1 {
+    margin-top: 30px; }
+  .block_iteam {
+    margin-top: 30px; }
+  section.block_2 {
+    display: none; }
+  section.city h1 {
+    margin-top: 100px; }
+  section.adver .lpI {
+    float: left;
+    margin-top: 0; }
+  section.adver h2 {
+    margin-left: 10%; }
+  section.adver .button2 {
+    margin: 200px -237px 0; }
+  .slider_menu ul li {
+    font-size: 15px; }
+  .img_content_all img {
+    width: 300px; }
+  .mask {
+    width: 300px; }
+  .social_group {
+    padding: 0 60px; }
+  /*slider*/
+  .p_slider {
+    margin-left: 10px; }
+  .slider_text_right {
+    margin-left: 0;
+    margin-top: 20px; }
+  .bx-wrapper .bx-next {
+    right: 70px; }
+  .logo_map {
+    left: 29%; }
+  .butt_scrol {
+    background-color: #fc635e;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    left: 80%;
+    padding: 10px 15px;
+    position: absolute;
+    top: 44%; }
+  section.footer .logo {
+    margin: 22% auto; } }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu ul li a {
+    font-size: 12px; }
+  .menu ul li {
+    margin: 10px 8px; }
+  .p_general {
+    font-size: 17px; }
+  section.block_2 {
+    display: none; }
+  section.city h1 {
+    margin-top: 100px; }
+  section.adver .lpI {
+    float: left;
+    margin-top: 0; }
+  section.adver h2 {
+    margin-left: 10%; }
+  section.adver .button2 {
+    margin: 200px -237px 0; }
+  .img_content_all img {
+    width: 230px; }
+  .mask {
+    width: 230px; }
+  .social_group {
+    padding: 0 33px; }
+  /*slider*/
+  .p_slider {
+    font-size: 13px;
+    margin-left: 26px;
+    padding: 80px 21px; }
+  .slide_img2,
+  .slide_img1,
+  .slide_img3 {
+    margin-top: 75px; }
+  .slider_text_right {
+    margin-left: -70px;
+    margin-top: 125px; }
+  .bx-wrapper .bx-next {
+    right: 40px; }
+  .logo_map {
+    left: 34%; } }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu ul li a {
+    font-size: 12px; }
+  .menu ul li {
+    margin: 10px; }
+  .all_block {
+    margin-left: -80px; }
+  .team_man h1 {
+    font-size: 25px; }
+  .social_group {
+    padding: 0 20px; }
+  .slider_text_right {
+    margin-left: -20px; }
+  .bx-wrapper .bx-next {
+    right: 30px; }
+  .logo_map {
+    left: 38%; } }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .all_block {
+    margin-left: 0px; }
+  .img_content_all {
+    margin: 10px 0px; }
+    .img_content_all img {
+      width: 100%; }
+  .mask {
+    width: 100%; }
+  .social_group {
+    padding: 0 45px; }
+  .logo_map {
+    left: 41%; }
+  .log_t {
+    font-size: 20px; }
+  .menu ul li a {
+    font-size: 14px; }
+  .menu ul li {
+    margin: 10px; } }
+
+/* Extra large devices (large desktops, 1200px and up)*/
